@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindYourMatch - Znajdź swoją drugą połówkę</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Nagłówek -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-heart"></i>
+                <span>FindYourMatch</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Strona główna</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#features">Funkcje</a></li>
+                <li><a href="#testimonials">Opinie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <a href="#signup" class="btn-signup">Zarejestruj się</a>
+        </nav>
+    </header>
+
+    <!-- Sekcja Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Znajdź miłość, na którą zasługujesz</h1>
+            <p>Połącz się z osobami, które dzielą Twoje pasje i wartości</p>
+            <div class="hero-buttons">
+                <a href="#signup" class="btn-primary">Rozpocznij za darmo</a>
+                <a href="#about" class="btn-secondary">Dowiedz się więcej</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <i class="fas fa-heartbeat"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- O nas -->
+    <section class="about" id="about">
+        <h2>Dlaczego FindYourMatch?</h2>
+        <div class="about-content">
+            <div class="about-item">
+                <i class="fas fa-users"></i>
+                <h3>Duża społeczność</h3>
+                <p>Ponad 1 milion aktywnych użytkowników w Polsce</p>
+            </div>
+            <div class="about-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Bezpieczeństwo</h3>
+                <p>Zweryfikowane profile i ochrona danych</p>
+            </div>
+            <div class="about-item">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Aplikacja mobilna</h3>
+                <p>Łącz się w podróży z naszą aplikacją</p>
+            </div>
+            <div class="about-item">
+                <i class="fas fa-comments"></i>
+                <h3>Inteligentne dopasowanie</h3>
+                <p>Algorytm znajduje idealnych partnerów</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funkcje -->
+    <section class="features" id="features">
+        <h2>Nasze funkcje</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>Zaawansowane wyszukiwanie</h3>
+                <p>Filtruj według zainteresowań, lokalizacji i więcej</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>Czaty wideo</h3>
+                <p>Poznaj się lepiej przez bezpieczne czaty wideo</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Gry randkowe</h3>
+                <p>Przełam lody przez zabawne gry i quizy</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <h3>Organizator randek</h3>
+                <p>Zaplanuj spotkania w aplikacji</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formularz rejestracji -->
+    <section class="signup" id="signup">
+        <h2>Dołącz do nas już dziś!</h2>
+        <p>Załóż konto w 2 minuty</p>
+        <form class="signup-form" id="registrationForm">
+            <div class="form-group">
+                <input type="text" placeholder="Imię" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Hasło" required>
+                <select required>
+                    <option value="" disabled selected>Szukam...</option>
+                    <option value="male">Mężczyzny</option>
+                    <option value="female">Kobiety</option>
+                    <option value="any">Nie ma znaczenia</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-primary">Utwórz konto</button>
+            <p class="terms">Rejestrując się, akceptujesz <a href="#">Regulamin</a></p>
+        </form>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FindYourMatch</h3>
+                <p>Znajdź miłość swojego życia</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Linki</h4>
+                <ul>
+                    <li><a href="#home">Strona główna</a></li>
+                    <li><a href="#about">O nas</a></li>
+                    <li><a href="#features">Funkcje</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Pomoc</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Polityka prywatności</a></li>
+                    <li><a href="#">Regulamin</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FindYourMatch. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
